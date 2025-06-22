@@ -46,9 +46,9 @@
             // 
             // btnAbrirJornada
             // 
-            this.btnAbrirJornada.Location = new System.Drawing.Point(103, 134);
+            this.btnAbrirJornada.Location = new System.Drawing.Point(97, 244);
             this.btnAbrirJornada.Name = "btnAbrirJornada";
-            this.btnAbrirJornada.Size = new System.Drawing.Size(200, 41);
+            this.btnAbrirJornada.Size = new System.Drawing.Size(224, 52);
             this.btnAbrirJornada.TabIndex = 1;
             this.btnAbrirJornada.Text = "ABRIR JORNADA";
             this.btnAbrirJornada.UseVisualStyleBackColor = true;
@@ -56,9 +56,9 @@
             // 
             // btnCerrarJornada
             // 
-            this.btnCerrarJornada.Location = new System.Drawing.Point(360, 131);
+            this.btnCerrarJornada.Location = new System.Drawing.Point(353, 244);
             this.btnCerrarJornada.Name = "btnCerrarJornada";
-            this.btnCerrarJornada.Size = new System.Drawing.Size(183, 43);
+            this.btnCerrarJornada.Size = new System.Drawing.Size(216, 52);
             this.btnCerrarJornada.TabIndex = 2;
             this.btnCerrarJornada.Text = "CERRAR JORNADA";
             this.btnCerrarJornada.UseVisualStyleBackColor = true;
@@ -68,7 +68,7 @@
             // 
             this.lblEstado.AutoSize = true;
             this.lblEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstado.Location = new System.Drawing.Point(45, 346);
+            this.lblEstado.Location = new System.Drawing.Point(334, 157);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(64, 22);
             this.lblEstado.TabIndex = 3;
