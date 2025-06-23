@@ -50,6 +50,7 @@ namespace Sistema_de_Gestión_de_Trámites
             colaTramites.Encolar(nuevo);
             MessageBox.Show("Trámite registrado correctamente.");
             LimpiarCampos();
+            MostrarCola();
         }
 
       
@@ -102,5 +103,7 @@ namespace Sistema_de_Gestión_de_Trámites
         {
             MostrarCola();
         }
+
+
     }
 }

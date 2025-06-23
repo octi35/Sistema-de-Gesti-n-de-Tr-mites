@@ -27,7 +27,7 @@ namespace Sistema_de_Gestión_de_Trámites
 
         private void FrmSimulacion_Load(object sender, EventArgs e)
         {
-            Directory.CreateDirectory(carpetaRespaldo); // Asegura que exista la carpeta
+            Directory.CreateDirectory(carpetaRespaldo); // para asegurar que exista la carpeta resplado 
         }
 
         private void btnAbrirJornada_Click(object sender, EventArgs e)

@@ -37,6 +37,7 @@
             this.btnVerTodos = new System.Windows.Forms.Button();
             this.btnExportar = new System.Windows.Forms.Button();
             this.dataHistorial = new System.Windows.Forms.DataGridView();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataHistorial)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,7 +54,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(81, 114);
+            this.label2.Location = new System.Drawing.Point(87, 148);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(123, 16);
             this.label2.TabIndex = 1;
@@ -62,7 +63,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(82, 157);
+            this.label3.Location = new System.Drawing.Point(87, 195);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 16);
             this.label3.TabIndex = 2;
@@ -71,14 +72,14 @@
             // cmbFiltroTipo
             // 
             this.cmbFiltroTipo.FormattingEnabled = true;
-            this.cmbFiltroTipo.Location = new System.Drawing.Point(232, 106);
+            this.cmbFiltroTipo.Location = new System.Drawing.Point(231, 140);
             this.cmbFiltroTipo.Name = "cmbFiltroTipo";
             this.cmbFiltroTipo.Size = new System.Drawing.Size(177, 24);
             this.cmbFiltroTipo.TabIndex = 3;
             // 
             // dtpFiltroFecha
             // 
-            this.dtpFiltroFecha.Location = new System.Drawing.Point(232, 157);
+            this.dtpFiltroFecha.Location = new System.Drawing.Point(231, 190);
             this.dtpFiltroFecha.Name = "dtpFiltroFecha";
             this.dtpFiltroFecha.Size = new System.Drawing.Size(177, 22);
             this.dtpFiltroFecha.TabIndex = 4;
@@ -123,11 +124,23 @@
             this.dataHistorial.Size = new System.Drawing.Size(709, 177);
             this.dataHistorial.TabIndex = 8;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(86, 102);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(86, 20);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "FILTROS";
+            // 
             // FrmHistorial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(162)))), ((int)(((byte)(233)))));
             this.ClientSize = new System.Drawing.Size(828, 551);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.dataHistorial);
             this.Controls.Add(this.btnExportar);
             this.Controls.Add(this.btnVerTodos);
@@ -157,5 +170,6 @@
         private System.Windows.Forms.Button btnVerTodos;
         private System.Windows.Forms.Button btnExportar;
         private System.Windows.Forms.DataGridView dataHistorial;
+        private System.Windows.Forms.Label label4;
     }
 }

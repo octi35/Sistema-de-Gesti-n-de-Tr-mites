@@ -37,16 +37,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(40, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(265, 33);
+            this.label1.Size = new System.Drawing.Size(322, 40);
             this.label1.TabIndex = 0;
             this.label1.Text = "GESTION JORNDA";
             // 
             // btnAbrirJornada
             // 
-            this.btnAbrirJornada.Location = new System.Drawing.Point(97, 244);
+            this.btnAbrirJornada.Location = new System.Drawing.Point(47, 307);
             this.btnAbrirJornada.Name = "btnAbrirJornada";
             this.btnAbrirJornada.Size = new System.Drawing.Size(224, 52);
             this.btnAbrirJornada.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // btnCerrarJornada
             // 
-            this.btnCerrarJornada.Location = new System.Drawing.Point(353, 244);
+            this.btnCerrarJornada.Location = new System.Drawing.Point(410, 307);
             this.btnCerrarJornada.Name = "btnCerrarJornada";
             this.btnCerrarJornada.Size = new System.Drawing.Size(216, 52);
             this.btnCerrarJornada.TabIndex = 2;
@@ -67,10 +67,10 @@
             // lblEstado
             // 
             this.lblEstado.AutoSize = true;
-            this.lblEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstado.Location = new System.Drawing.Point(334, 157);
+            this.lblEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstado.Location = new System.Drawing.Point(196, 155);
             this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Size = new System.Drawing.Size(64, 22);
+            this.lblEstado.Size = new System.Drawing.Size(101, 36);
             this.lblEstado.TabIndex = 3;
             this.lblEstado.Text = "label2";
             // 
@@ -78,7 +78,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(162)))), ((int)(((byte)(233)))));
+            this.ClientSize = new System.Drawing.Size(681, 450);
             this.Controls.Add(this.lblEstado);
             this.Controls.Add(this.btnCerrarJornada);
             this.Controls.Add(this.btnAbrirJornada);

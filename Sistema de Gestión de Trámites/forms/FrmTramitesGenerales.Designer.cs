@@ -85,32 +85,35 @@
             // 
             // btnRegistrarTramite
             // 
-            this.btnRegistrarTramite.Location = new System.Drawing.Point(480, 66);
+            this.btnRegistrarTramite.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(223)))), ((int)(((byte)(237)))));
+            this.btnRegistrarTramite.Location = new System.Drawing.Point(480, 43);
             this.btnRegistrarTramite.Name = "btnRegistrarTramite";
             this.btnRegistrarTramite.Size = new System.Drawing.Size(151, 44);
             this.btnRegistrarTramite.TabIndex = 6;
             this.btnRegistrarTramite.Text = "REGISTRAR TRAMITE";
-            this.btnRegistrarTramite.UseVisualStyleBackColor = true;
+            this.btnRegistrarTramite.UseVisualStyleBackColor = false;
             this.btnRegistrarTramite.Click += new System.EventHandler(this.btnRegistrarTramite_Click);
             // 
             // btnVerCola
             // 
-            this.btnVerCola.Location = new System.Drawing.Point(480, 126);
+            this.btnVerCola.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(223)))), ((int)(((byte)(237)))));
+            this.btnVerCola.Location = new System.Drawing.Point(480, 108);
             this.btnVerCola.Name = "btnVerCola";
-            this.btnVerCola.Size = new System.Drawing.Size(150, 47);
+            this.btnVerCola.Size = new System.Drawing.Size(151, 44);
             this.btnVerCola.TabIndex = 7;
             this.btnVerCola.Text = "VER COLA";
-            this.btnVerCola.UseVisualStyleBackColor = true;
+            this.btnVerCola.UseVisualStyleBackColor = false;
             this.btnVerCola.Click += new System.EventHandler(this.btnVerCola_Click_1);
             // 
             // btnAtenderTramite
             // 
-            this.btnAtenderTramite.Location = new System.Drawing.Point(479, 197);
+            this.btnAtenderTramite.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(223)))), ((int)(((byte)(237)))));
+            this.btnAtenderTramite.Location = new System.Drawing.Point(480, 176);
             this.btnAtenderTramite.Name = "btnAtenderTramite";
-            this.btnAtenderTramite.Size = new System.Drawing.Size(151, 32);
+            this.btnAtenderTramite.Size = new System.Drawing.Size(151, 44);
             this.btnAtenderTramite.TabIndex = 8;
             this.btnAtenderTramite.Text = "ATENDER TRAMITE";
-            this.btnAtenderTramite.UseVisualStyleBackColor = true;
+            this.btnAtenderTramite.UseVisualStyleBackColor = false;
             this.btnAtenderTramite.Click += new System.EventHandler(this.btnAtenderTramite_Click);
             // 
             // lblTitulo
@@ -134,18 +137,19 @@
             // dataColaTramites
             // 
             this.dataColaTramites.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataColaTramites.Location = new System.Drawing.Point(55, 264);
+            this.dataColaTramites.Location = new System.Drawing.Point(29, 251);
             this.dataColaTramites.Name = "dataColaTramites";
             this.dataColaTramites.RowHeadersWidth = 51;
             this.dataColaTramites.RowTemplate.Height = 24;
-            this.dataColaTramites.Size = new System.Drawing.Size(701, 284);
+            this.dataColaTramites.Size = new System.Drawing.Size(777, 227);
             this.dataColaTramites.TabIndex = 11;
             // 
             // FrmTramitesGenerales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(813, 635);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(162)))), ((int)(((byte)(233)))));
+            this.ClientSize = new System.Drawing.Size(818, 517);
             this.Controls.Add(this.dataColaTramites);
             this.Controls.Add(this.cmbTipoTramite);
             this.Controls.Add(this.lblTitulo);

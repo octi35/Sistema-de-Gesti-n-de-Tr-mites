@@ -51,6 +51,7 @@ namespace Sistema_de_Gestión_de_Trámites
             pilaUrgencias.Apilar(urgencia);
             MessageBox.Show("Urgencia registrada correctamente.");
             LimpiarCampos();
+            MostrarPila();
         }
 
         private void btnAtenderUrgencia_Click(object sender, EventArgs e)

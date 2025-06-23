@@ -101,14 +101,14 @@
             // 
             this.txtNombre.Location = new System.Drawing.Point(198, 121);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(211, 22);
+            this.txtNombre.Size = new System.Drawing.Size(201, 22);
             this.txtNombre.TabIndex = 6;
             // 
             // txtMotivo
             // 
             this.txtMotivo.Location = new System.Drawing.Point(198, 172);
             this.txtMotivo.Name = "txtMotivo";
-            this.txtMotivo.Size = new System.Drawing.Size(212, 22);
+            this.txtMotivo.Size = new System.Drawing.Size(201, 22);
             this.txtMotivo.TabIndex = 7;
             // 
             // cmbTipoTramite
@@ -116,14 +116,14 @@
             this.cmbTipoTramite.FormattingEnabled = true;
             this.cmbTipoTramite.Location = new System.Drawing.Point(198, 220);
             this.cmbTipoTramite.Name = "cmbTipoTramite";
-            this.cmbTipoTramite.Size = new System.Drawing.Size(207, 24);
+            this.cmbTipoTramite.Size = new System.Drawing.Size(201, 24);
             this.cmbTipoTramite.TabIndex = 8;
             // 
             // btnAgregarUrgencia
             // 
-            this.btnAgregarUrgencia.Location = new System.Drawing.Point(70, 308);
+            this.btnAgregarUrgencia.Location = new System.Drawing.Point(472, 76);
             this.btnAgregarUrgencia.Name = "btnAgregarUrgencia";
-            this.btnAgregarUrgencia.Size = new System.Drawing.Size(204, 30);
+            this.btnAgregarUrgencia.Size = new System.Drawing.Size(151, 44);
             this.btnAgregarUrgencia.TabIndex = 9;
             this.btnAgregarUrgencia.Text = "AGREGAR URGENCIA";
             this.btnAgregarUrgencia.UseVisualStyleBackColor = true;
@@ -131,9 +131,9 @@
             // 
             // btnAtenderUrgencia
             // 
-            this.btnAtenderUrgencia.Location = new System.Drawing.Point(320, 309);
+            this.btnAtenderUrgencia.Location = new System.Drawing.Point(472, 144);
             this.btnAtenderUrgencia.Name = "btnAtenderUrgencia";
-            this.btnAtenderUrgencia.Size = new System.Drawing.Size(180, 29);
+            this.btnAtenderUrgencia.Size = new System.Drawing.Size(151, 44);
             this.btnAtenderUrgencia.TabIndex = 10;
             this.btnAtenderUrgencia.Text = "ATENDER URGENCIA";
             this.btnAtenderUrgencia.UseVisualStyleBackColor = true;
@@ -142,18 +142,18 @@
             // dataUrgencias
             // 
             this.dataUrgencias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataUrgencias.Location = new System.Drawing.Point(41, 344);
+            this.dataUrgencias.Location = new System.Drawing.Point(18, 275);
             this.dataUrgencias.Name = "dataUrgencias";
             this.dataUrgencias.RowHeadersWidth = 51;
             this.dataUrgencias.RowTemplate.Height = 24;
-            this.dataUrgencias.Size = new System.Drawing.Size(717, 202);
+            this.dataUrgencias.Size = new System.Drawing.Size(839, 202);
             this.dataUrgencias.TabIndex = 11;
             // 
             // btnVerPila
             // 
-            this.btnVerPila.Location = new System.Drawing.Point(534, 310);
+            this.btnVerPila.Location = new System.Drawing.Point(472, 209);
             this.btnVerPila.Name = "btnVerPila";
-            this.btnVerPila.Size = new System.Drawing.Size(165, 27);
+            this.btnVerPila.Size = new System.Drawing.Size(151, 44);
             this.btnVerPila.TabIndex = 12;
             this.btnVerPila.Text = "VER PILA";
             this.btnVerPila.UseVisualStyleBackColor = true;
@@ -163,7 +163,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(892, 588);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(162)))), ((int)(((byte)(233)))));
+            this.ClientSize = new System.Drawing.Size(882, 518);
             this.Controls.Add(this.btnVerPila);
             this.Controls.Add(this.dataUrgencias);
             this.Controls.Add(this.btnAtenderUrgencia);

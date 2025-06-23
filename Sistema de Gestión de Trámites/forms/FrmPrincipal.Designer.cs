@@ -51,13 +51,13 @@
             // 
             // tabTramites
             // 
+            this.tabTramites.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(162)))), ((int)(((byte)(233)))));
             this.tabTramites.Location = new System.Drawing.Point(4, 25);
             this.tabTramites.Name = "tabTramites";
             this.tabTramites.Padding = new System.Windows.Forms.Padding(3);
             this.tabTramites.Size = new System.Drawing.Size(899, 561);
             this.tabTramites.TabIndex = 0;
             this.tabTramites.Text = "TRAMITES";
-            this.tabTramites.UseVisualStyleBackColor = true;
             // 
             // tabUrgencias
             // 
@@ -93,7 +93,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(975, 642);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(96)))), ((int)(((byte)(142)))));
+            this.ClientSize = new System.Drawing.Size(940, 642);
             this.Controls.Add(this.tabControl1);
             this.Name = "FrmPrincipal";
             this.Text = "Form1";
